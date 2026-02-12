@@ -41,8 +41,8 @@ Try it out: [https://quote-generator-two-tau.vercel.app/](https://quote-generato
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/AhmadR-11/Nexium_Ahmad_Assign1.git
-cd Nexium_Ahmad_Assign1
+git clone https://github.com/AhmadR-11/Quote-Generator.git
+cd Quote-Generator
 npm install
 ```
 
