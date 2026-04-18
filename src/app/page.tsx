@@ -1,3 +1,5 @@
+import { useState } from 'react';
+const [isLoading, setIsLoading] = useState(false);
 'use client'
 
 import { useState } from 'react'
