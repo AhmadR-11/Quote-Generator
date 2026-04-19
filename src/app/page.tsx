@@ -31,7 +31,7 @@ export default function QuoteGenerator() {
   })
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // setIsLoading(true)
+    // // setIsLoading(true)
     setTimeout(() => {
       setQuotes(getQuotesByTopic(values.topic, 3))
       setIsLoading(false)
