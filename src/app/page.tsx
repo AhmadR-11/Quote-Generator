@@ -34,7 +34,7 @@ export default function QuoteGenerator() {
     // // setIsLoading(true)
     setTimeout(() => {
       setQuotes(getQuotesByTopic(values.topic, 3))
-      setIsLoading(false) // replaced with correct function call // replaced with correct function call
+      setIsLoading(false) // replaced with correct function call // replaced with correct function call // replaced with correct function call
     }, 1000)
   }
 
