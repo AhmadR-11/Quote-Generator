@@ -23,7 +23,7 @@ const formSchema = z.object({
 
 export default function QuoteGenerator() {
   const [quotes, setQuotes] = useState<QuoteType[]>([])
-  const [isLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
